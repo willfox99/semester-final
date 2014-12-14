@@ -34,7 +34,7 @@ public class BeepFarmer extends Farmer {
 		int startX = this.getX();
 		int startY = this.getY();
 		for (int i = 0; i< width; i++) {
-			for (int j = 0; j<width; j++) {
+			for (int j = 0; j<height; j++) {
 				teleport(startX+i, startY+j);
 				if (this.hasBeepers()) {
 					putBeeper();
